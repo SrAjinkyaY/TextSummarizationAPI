@@ -303,7 +303,3 @@ Each class has one reason to change:
 ## License
 
 This project is open source and available under the MIT License.
-
-## Support
-
-For issues, feature requests, or contributions, please visit the repository or contact the development team.
