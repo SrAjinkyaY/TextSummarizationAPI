@@ -11,7 +11,7 @@ import io.summarizer.helper.SummarizationResponseBuilder;
 @Service
 public class TextSummarizationServiceImpl implements TextSummarizationService {
 
-	private ChatClient chatClient;
+	private final ChatClient chatClient;
 
 	@Value("${summarization.prompt.template}")
 	private String promptTemplate;
